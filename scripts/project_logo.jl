@@ -1,8 +1,5 @@
-include("../src/PixelsProjector.jl")
-
-using Colors
 using Images
-using .PixelsProjector
+using PixelsProjector
 
 let
 pixels = rand(values(Colors.JULIA_LOGO_COLORS), 50, 50)

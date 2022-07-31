@@ -1,8 +1,4 @@
-include("../src/PixelsProjector.jl")
-
-using Colors
-using Images
-using .PixelsProjector
+using PixelsProjector
 
 # zoom on a small image
 pixels = rand(RGB, 100, 100)

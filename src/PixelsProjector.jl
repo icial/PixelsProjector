@@ -1,6 +1,8 @@
 module PixelsProjector
 
-using Colors
+using Reexport
+@reexport using Colors
+@reexport using ImageShow
 
 export Projector, zoom!, project!, colorpixel!
 
