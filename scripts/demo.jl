@@ -5,7 +5,7 @@ using Images
 using .PixelsProjector
 
 # zoom on a small image
-pixels = rand(values(Colors.JULIA_LOGO_COLORS), 100, 100)
+pixels = rand(RGB, 100, 100)
 projector = Projector(pixels);
 zoom!(10, projector)
 
