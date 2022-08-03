@@ -10,7 +10,7 @@ projector = Projector(pixels)
 zoom!(10, projector)
 
 using GLMakie
-image!(projector.large_image)
+image(projector.large_image)
 ```
 
 ## Motivations
