@@ -9,8 +9,8 @@ pixels = rand(RGB, 50, 50)
 projector = Projector(pixels)
 zoom!(10, projector)
 
-using GLMakie
-image(projector.large_image)
+using Images
+projector.large_image
 ```
 
 ## Motivations
