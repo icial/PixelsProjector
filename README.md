@@ -10,7 +10,7 @@ projector = Projector(pixels)
 zoom!(10, projector)
 
 using Images
-projector.large_image
+display(projector.large_image)
 ```
 
 ## Motivations
